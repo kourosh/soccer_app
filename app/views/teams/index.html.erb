@@ -1,0 +1,6 @@
+<% @teams.each do |t| %>
+	<h2><%= t.name %>, <%= t.country %></h2>
+	<% t.players.each do |p| %>
+		<p><%= p.name %></p>
+	<% end %>
+<% end %>

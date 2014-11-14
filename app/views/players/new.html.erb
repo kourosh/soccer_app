@@ -1,0 +1,5 @@
+<%= form_for [@team, @player] do |p| %>
+	<%= p.text_field(:name, placeholder: "Player name") %>
+	<%= p.text_field(:jersey, placeholder: "Player jersey number") %>
+	<%= submit_tag("Create New Player") %>
+<% end %>

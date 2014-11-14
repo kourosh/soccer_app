@@ -1,0 +1,4 @@
+<h2><%= @team.name %>, <%= @team.country %></h2>
+<% @player.each do |p| %>
+	<p><%= p.name %>, <%= p.jersey %></p>
+<% end %>

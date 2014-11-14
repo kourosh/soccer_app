@@ -1,0 +1,5 @@
+<%= form_for @team do |f| %>
+	<%= f.text_field(:name, placeholder: "Team name") %>
+	<%= f.text_field(:country, placeholder: "Country") %>
+	<%= submit_tag("Submit New Team") %>
+<% end %>

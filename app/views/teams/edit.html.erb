@@ -1,0 +1,6 @@
+<%= form_for @team, method: "put" do |f| %>
+	<%= f.text_field(:name) %>
+	<%= f.text_field(:country) %>
+	<%= submit_tag("Edit Team") %>
+	<%= submit_tag("Delete Team", name: "delete") %>
+<% end %>
